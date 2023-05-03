@@ -7,6 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link
       href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;700&display=swap"
       rel="stylesheet"
     />
@@ -33,20 +38,22 @@
                 </div>
               </nav>
             </div>
-            <img
-              id="toggle-nav-btn"
-              src="img/burger_navigation.svg"
-              alt="leamo logo"
-            />
-            <nav id="nav" class="navigation-mobile-version">
-              <div class="navigation-container-nav-mobile">
-                <a href="#home">Home</a>
-                <a href="#produits">Produits</a>
-                <a href="#valeurs">Nos valeurs</a>
-                <a href="#shop">Shop</a>
-                <a href="#noustrouver">Nous trouver</a>
-              </div>
-            </nav>
+            <div class="navigation-mobile">
+              <img
+                id="toggle-nav-btn"
+                src="img/burger_navigation.svg"
+                alt="leamo logo"
+              />
+              <nav id="nav" class="navigation-mobile-version">
+                <div class="navigation-container-nav-mobile">
+                  <a href="#home">Home</a>
+                  <a href="#produits">Produits</a>
+                  <a href="#valeurs">Nos valeurs</a>
+                  <a href="#shop">Shop</a>
+                  <a href="#noustrouver">Nous trouver</a>
+                </div>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -67,7 +74,23 @@
             </a>
           </div>
           <div class="col-12 col-md-7 col-lg-7">
-            <img src="img/frozen_leamo_drink.webp" alt="leamo logo" />
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/frozen_leamo_drink.webp" alt="leamo logo" />
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -151,7 +174,12 @@
         </div>
         <div class="row">
           <div class="col-6 col-md-8 col-lg-8">
-            <p>texte tonic</p>
+            <a>Recette</a>
+            <h3>TONIC X LEMON</h3>
+            <p>
+              Besoin d’un bon rafraichissement ? N’attendez plus pour essayer
+              notre mix: Tonic x Limon !
+            </p>
           </div>
           <div class="col-6 col-md-4 col-lg-4">
             <img
@@ -170,12 +198,22 @@
             />
           </div>
           <div class="col-6 col-md-8 col-lg-8">
-            <p>mate</p>
+            <a>Recette</a>
+            <h3>GIN X MATE</h3>
+            <p>
+              Envie d’un peu de peps ? Notre mix Gin x Mate n’attend plus que
+              vous !
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
-            <p>notre engagement</p>
+            <a>notre engagement</a>
+            <p>
+              Toutes les recettes de LEAMO sont réalisées avec des ingrédients
+              bio de première qualité dans le respect des techniques de
+              fabrications traditionnelles. En savoir plus
+            </p>
           </div>
           <div class="col-12 col-md-6 col-lg-6">
             <img
@@ -203,12 +241,26 @@
             />
           </div>
           <div class="col-12 col-md-7 col-lg-7">
-            <p>retrouvez-nous</p>
+            <div class="footer-container">
+              <a>retrouvez-nous</a>
+              <ul>
+                <li>AlterFood</li>
+                <li>Contact</li>
+                <li>Mentions legales</li>
+              </ul>
+              <div>
+                <a>leamo</a>
+                <a>instagram</a>
+                <a>fb</a>
+                <a>mentions legales</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
     <footer></footer>
     <script src="js/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>

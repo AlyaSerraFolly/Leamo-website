@@ -5,5 +5,21 @@ nav,
 
 nav,
 .navigation-desktop-version {
+  display: block;
+}
+
+.navigation-mobile {
   display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .navigation-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navigation-mobile {
+    display: block;
+  }
 }
