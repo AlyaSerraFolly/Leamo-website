@@ -1,0 +1,27 @@
+.animation-underline:hover::before {
+  content: "";
+  width: 100%;
+}
+
+.animation-underline::before {
+  content: "";
+  height: 0.1px;
+  width: 0px;
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  width: 0px;
+  margin-top: 5px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  transition: width 0.25s ease-out;
+}
+
+.animation-underline {
+  display: inline-block;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}

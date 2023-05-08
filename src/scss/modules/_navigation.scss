@@ -1,5 +1,4 @@
-nav,
-.navigation-mobile-version {
+div .navigation-mobile {
   display: none;
 }
 
@@ -8,18 +7,36 @@ nav,
   display: block;
 }
 
-.navigation-mobile {
-  display: none;
-}
-
 @media screen and (max-width: 650px) {
-  .navigation-desktop {
+  div .navigation-desktop-version {
     display: none;
   }
 }
 
 @media screen and (max-width: 650px) {
-  .navigation-mobile {
+  div .navigation-mobile {
     display: block;
   }
+}
+
+.navigation-desktop-version {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 40px;
+}
+
+.navigation-language {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navigation-container-nav-desktop a {
+  padding-left: 15px;
+}
+
+.navigation-mobile-version,
+.navigation-mobile {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 40px;
 }

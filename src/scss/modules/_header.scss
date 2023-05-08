@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header {
+  height: 90px;
+}
