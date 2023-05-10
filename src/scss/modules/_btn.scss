@@ -1,5 +1,13 @@
-.btn-dark {
+.btn {
+  color: black;
+  border: black solid 0.5px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 3px 18px 3px 18px;
+}
+
+.btn .dark {
   background-color: black;
   color: white;
-  cursor: pointer;
+  border: none;
 }

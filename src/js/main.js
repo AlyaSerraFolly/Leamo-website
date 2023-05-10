@@ -9,9 +9,9 @@ toggleNavBtn.addEventListener("click", function () {
   }
 });
 
-var swiper = new Swiper(".mySwiper", {
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+const swiper = new Swiper(".swiper", {
+  autoplay: {
+    disableOnInteraction: true,
+    delay: 4000,
   },
 });
