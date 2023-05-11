@@ -6,11 +6,37 @@
 .l-arrow img {
   width: 65px;
   height: 65px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+  .l-arrow img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .arrow-container {
   display: flex;
   justify-content: flex-end;
-  padding-top: 170px;
-  padding-right: 35px;
+  padding-top: 8%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+.l-text {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 1370px) {
+  .l-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .l-text {
+    font-size: 13px;
+  }
 }

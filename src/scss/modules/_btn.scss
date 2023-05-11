@@ -4,10 +4,16 @@
   cursor: pointer;
   border-radius: 20px;
   padding: 3px 18px 3px 18px;
+  transition: 0.3s;
 }
 
 .btn .dark {
   background-color: black;
   color: white;
   border: none;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }

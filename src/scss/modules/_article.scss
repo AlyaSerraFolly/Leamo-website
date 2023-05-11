@@ -1,4 +1,15 @@
 .article-image {
-  width: auto;
+  max-width: 100%;
+  height: auto;
+  align-content: center;
+}
+
+.tonic-image {
   height: 300px;
+  width: 170px;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
 }
