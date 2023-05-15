@@ -1,15 +1,39 @@
 .article-image {
-  max-width: 100%;
-  height: auto;
-  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 93%;
 }
 
 .tonic-image {
   height: 300px;
   width: 170px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .article-container {
   display: flex;
   flex-direction: column;
+  background-color: var(--gris);
+  padding-top: 15px;
+  padding: 15px 0 30px;
+}
+
+.article-top-text,
+.article-bottom-text {
+  padding-left: 4%;
+  padding-bottom: 5px;
+}
+
+.article-bottom-text {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-product-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
