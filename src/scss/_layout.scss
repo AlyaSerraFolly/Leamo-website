@@ -2,12 +2,24 @@
   width: 65px;
   height: 65px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.l-arrow:hover img {
+  transform: rotate(45deg);
 }
 
 @media screen and (max-width: 1030px) {
   .l-arrow img {
     width: 50px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .l-arrow img {
+    width: 30px;
+    height: 30px;
   }
 }
 

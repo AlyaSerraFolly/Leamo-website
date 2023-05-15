@@ -4,36 +4,57 @@
   width: 93%;
 }
 
-.tonic-image {
-  height: 300px;
-  width: 170px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .article-container {
   display: flex;
   flex-direction: column;
   background-color: var(--gris);
-  padding-top: 15px;
-  padding: 15px 0 30px;
+  padding-top: 5%;
+  margin: 3%;
+}
+
+.article-top-text {
+  display: block;
+  width: 93%;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: white;
+  margin-left: 3.5%;
+  padding-top: 3%;
 }
 
 .article-top-text,
 .article-bottom-text {
-  padding-left: 4%;
   padding-bottom: 5px;
 }
 
 .article-bottom-text {
   padding-top: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .article-product-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.article-bottom-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+}
+
+@media screen and (max-width: 1030px) {
+  .main-text-article-container {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .article-product-container {
+  }
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
 }

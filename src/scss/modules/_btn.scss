@@ -7,6 +7,12 @@
   transition: 0.3s;
 }
 
+@media screen and (max-width: 420px) {
+  .first-card-btn {
+    display: none;
+  }
+}
+
 .btn .dark {
   background-color: black;
   color: white;
@@ -16,4 +22,30 @@
 .btn:hover {
   background-color: rgb(0, 0, 0);
   color: white;
+}
+
+.btn-container {
+  padding-top: 20px;
+}
+
+.btn-container-main {
+  padding-top: 5px;
+}
+
+.btn-article {
+  border: 0.5px solid black;
+  /*taille définie / padding: 10px 135px 10px 135px;*/
+  background-color: var(--gris);
+  transition: 0.3s;
+  padding: 2%;
+  display: block;
+  width: 96%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.btn-article:hover {
+  color: white;
+  background-color: black;
 }

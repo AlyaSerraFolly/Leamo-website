@@ -18,6 +18,12 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 420px) {
+  .swiper-slide {
+    height: 300px;
+  }
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: #000;
