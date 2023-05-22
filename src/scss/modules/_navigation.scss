@@ -56,6 +56,10 @@ nav,
 .navigation-mobile {
   align-items: flex-end;
   padding-left: 40px;
+  position: absolute;
+  top: 50px;
+  right: 0%;
+  right: 20px;
 }
 
 .navigation-mobile-version {
@@ -63,4 +67,5 @@ nav,
   border: 0.75px solid black;
   height: 270px;
   width: 180px;
+  top: 20px;
 }
