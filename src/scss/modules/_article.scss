@@ -6,7 +6,8 @@
 
 @media screen and (max-width: 530px) {
   .article-container {
-    width: 160px;
+    width: 140px;
+    justify-content: flex-start;
   }
 }
 
@@ -59,15 +60,15 @@
   display: block;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .article-limonade {
     display: none;
   }
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 767px) {
   .article-product-container {
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 }
 
