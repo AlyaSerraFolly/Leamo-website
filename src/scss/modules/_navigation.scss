@@ -15,7 +15,16 @@ nav,
 
 @media screen and (max-width: 650px) {
   div .navigation-mobile {
-    display: block;
+    /*display: block;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div .navigation-mobile-version {
+    align-items: flex-end;
   }
 }
 
@@ -34,9 +43,26 @@ nav,
   padding-left: 15px;
 }
 
+.navigation-container-nav-mobile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+}
+
+.navigation-container-nav-mobile a {
+  padding-top: 15px;
+}
+
 .navigation-mobile-version,
 .navigation-mobile {
-  display: flex;
   align-items: flex-end;
   padding-left: 40px;
+}
+
+.navigation-mobile-version {
+  background-color: red;
+  flex-direction: column-reverse;
+  height: 270px;
+  width: 180px;
+  z-index: 2;
 }

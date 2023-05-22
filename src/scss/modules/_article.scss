@@ -49,8 +49,13 @@
   }
 }
 
-@media screen and (max-width: 1030px) {
-  .article-product-container {
+.article-limonade {
+  display: block;
+}
+
+@media screen and (max-width: 530px) {
+  .article-limonade {
+    display: none;
   }
 }
 
