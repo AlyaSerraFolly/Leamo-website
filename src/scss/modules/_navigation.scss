@@ -15,18 +15,17 @@ nav,
 
 @media screen and (max-width: 650px) {
   div .navigation-mobile {
-    /*display: block;*/
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
+    z-index: 2;
   }
 }
 
-@media screen and (max-width: 650px) {
+/*@media screen and (max-width: 650px) {
   div .navigation-mobile-version {
     align-items: flex-end;
   }
-}
+}*/
 
 .navigation-desktop-version {
   display: flex;
@@ -60,9 +59,8 @@ nav,
 }
 
 .navigation-mobile-version {
-  background-color: red;
-  flex-direction: column-reverse;
+  background-color: rgb(255, 255, 255);
+  border: 0.75px solid black;
   height: 270px;
   width: 180px;
-  z-index: 2;
 }
