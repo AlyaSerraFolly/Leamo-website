@@ -4,6 +4,11 @@
   width: 93%;
 }
 
+.article-container:hover {
+  scale: 1.01;
+  transition: 0.3s ease-out;
+}
+
 @media screen and (max-width: 530px) {
   .article-container {
     width: 140px;
@@ -75,4 +80,18 @@
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.article-container-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.article-tonic {
+  flex-direction: row-reverse;
+}
+
+.main-last-card-h3 {
+  line-height: 38px;
+  padding-bottom: 10px;
 }
