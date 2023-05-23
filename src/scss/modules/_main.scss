@@ -79,6 +79,21 @@
   padding-left: 6%;
 }
 
+@media screen and (max-width: 1210px) {
+  .main-last-card-spacement {
+    padding-top: 10%;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .main-last-card-h3 {
+    line-height: 10px;
+  }
+}
+
 .main-last-card-h3 {
   line-height: 38px;
   padding-bottom: 7px;
@@ -87,4 +102,31 @@
 .main-image-last-up {
   width: 900px;
   height: auto;
+}
+
+.main-card-last-container {
+  background-color: var(--beige);
+  color: rgb(0, 0, 0);
+}
+
+/* card */
+
+.main-container-mini-logo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.main-card-vecto-container {
+  background-color: var(--noir);
+}
+
+.main-mini-logo {
+  height: auto;
+  max-width: 65%;
+  margin-left: 4%;
+}
+
+.main-mini-logo {
 }
