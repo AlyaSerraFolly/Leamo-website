@@ -107,9 +107,15 @@
 .main-card-last-container {
   background-color: var(--beige);
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 /* card */
+
+.main-last-container-text {
+  padding-top: 10%;
+  padding-bottom: 6%;
+}
 
 .main-container-mini-logo {
   display: flex;
@@ -129,4 +135,9 @@
 }
 
 .main-mini-logo {
+}
+
+.main-title-card-bottom {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
