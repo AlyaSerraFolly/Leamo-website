@@ -16,6 +16,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="scss/main.scss" />
+    <script
+      src="https://kit.fontawesome.com/777bf5bb22.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -35,7 +39,7 @@
                   <a class="animation-underline" href="#home">Home</a>
                   <a class="animation-underline" href="#produits">Produits</a>
                   <a class="animation-underline" href="#valeurs">Nos valeurs</a>
-                  <a class="animation-underline" href="#shop">Shop</a>
+                  <a class="animation-underline" href="#recettes">Recettes</a>
                   <a class="animation-underline" href="#noustrouver"
                     >Nous trouver</a
                   >
@@ -52,7 +56,7 @@
                     <a href="#home">Home</a>
                     <a href="#produits">Produits</a>
                     <a href="#valeurs">Nos valeurs</a>
-                    <a href="#shop">Shop</a>
+                    <a href="#recettes">Recettes</a>
                     <a href="#noustrouver">Nous trouver</a>
                   </div>
                 </nav>
@@ -65,7 +69,10 @@
     <main>
       <div class="container-fluid">
         <div class="row">
-          <div class="order-2 order-md-1 col-xs-12 col-md-5 main-card-light">
+          <div
+            id="home"
+            class="order-2 order-md-1 col-xs-12 col-md-5 main-card-light"
+          >
             <div class="main-card-container first-card-spacement">
               <h3>let's start</h3>
               <p class="l-text">
@@ -104,7 +111,7 @@
         <div class="row">
           <div class="col-12">
             <div class="container-fluid">
-              <div class="row article-product-container">
+              <div id="produits" class="row article-product-container">
                 <div class="col-3 nopadding article-full-container">
                   <div class="article-container">
                     <div class="article-top-text">
@@ -240,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="row article-container-row">
+        <div id="recettes" class="row article-container-row">
           <div class="col-5 col-md-4 col-lg-4 recipes-container-img">
             <img
               class="recipes-img"
@@ -314,7 +321,10 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-6 main-card-light">
-            <div class="main-card-container main-last-card-spacement">
+            <div
+              id="valeurs"
+              class="main-card-container main-last-card-spacement"
+            >
               <h3 class="main-last-card-h3">NOTRE <br />ENGAGEMENT</h3>
               <p class="l-text">
                 Toutes les recettes de LEAMO sont réalisées avec des ingrédients
@@ -371,7 +381,7 @@
         <div class="row">
           <div class="col-12 col-md-5 col-lg-5 nopadding">
             <img
-              class="right-image"
+              class="right-image main-yellow-image"
               src="img/drink_yellow_bsckground_leamo.webp"
               alt="différentes boisson leamo"
             />
@@ -391,7 +401,7 @@
     </main>
     <footer>
       <div class="col-12 col-md-12 col-lg-12 footer-card">
-        <div class="footer-container">
+        <div id="noustrouver" class="footer-container">
           <div class="footer-container-left">
             <ul>
               <li>AlterFood</li>
@@ -400,13 +410,20 @@
             </ul>
           </div>
           <div class="footer-container-right">
-            <div>
-              <a>LEAMO</a>
-              <a class="mini-logo-footer">
-                <img src="img/facebook_logo.svg" alt="instagram logo" />
-              </a>
-              <a>fb</a>
-              <a>mentions legales</a>
+            <div class="footer-mini-logo-container">
+              <a class="footer-leamo">LEAMO</a>
+              <div class="footer-full-container-logo">
+                <a class="logo-footer">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="logo-footer">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="logo-footer">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+              <a class="footer-brand">® LEAMO is a brand from Alterfood</a>
             </div>
           </div>
         </div>

@@ -6,6 +6,12 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 767px) {
+  .footer-container-left {
+    margin: 20px;
+  }
+}
+
 .footer-container-left {
   display: flex;
   padding-top: 2%;
@@ -14,9 +20,48 @@
 
 .footer-container-left ul {
   list-style: none;
-  padding-top: 6%;
+  padding-top: 2%;
 }
 
 .footer-container-left li {
   padding-bottom: 15px;
+}
+
+.footer-mini-logo-container {
+  padding-left: 2%;
+  display: flex;
+  padding-top: 20px;
+}
+
+.logo-footer {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-footer {
+    padding-left: 10px;
+  }
+}
+
+.footer-leamo {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-leamo {
+    padding-right: 10px;
+  }
+}
+
+.footer-brand {
+  justify-content: center;
+  padding-left: 10%;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-brand {
+    font-size: 9px;
+  }
 }

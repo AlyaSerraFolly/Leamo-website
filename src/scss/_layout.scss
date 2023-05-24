@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 767px) {
   .l-arrow img {
     width: 20px;
     height: 20px;
@@ -46,11 +46,13 @@
 @media screen and (max-width: 1370px) {
   .l-text {
     font-size: 15px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 1030px) {
   .l-text {
     font-size: 13px;
+    text-align: center;
   }
 }
