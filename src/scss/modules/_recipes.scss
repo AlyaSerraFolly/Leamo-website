@@ -91,6 +91,7 @@
   .recipes-img-arrow {
     width: 18px;
     padding-top: 1%;
+    padding-left: 0;
   }
 }
 
@@ -102,4 +103,5 @@
 .recipes-title-arrow-container {
   display: flex;
   align-items: center;
+  align-items: flex-start;
 }

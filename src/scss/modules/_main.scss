@@ -88,12 +88,6 @@
   }
 }
 
-@media screen and (max-width: 1210px) {
-  .main-last-card-h3 {
-    line-height: 10px;
-  }
-}
-
 .main-last-card-h3 {
   line-height: 38px;
   padding-bottom: 7px;
@@ -169,7 +163,19 @@
 
 @media screen and (max-width: 767px) {
   .main-yellow-image {
-    height: 140px;
-    width: 700px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.right-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .right-image {
+    display: none;
   }
 }
